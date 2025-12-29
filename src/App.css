@@ -69,3 +69,32 @@ button {
   transform: scale(0.95);
   background-color: #27ae60;
 }
+.scoreboard {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.score {
+  padding: 5px 15px;
+  background: #fff;
+  color: #333;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+.clear-btn {
+  margin-top: 30px;
+  padding: 12px 20px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
